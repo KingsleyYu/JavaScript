@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript NaN</title>
+	<script type="text/javascript">
+		console.log('abc'/4);
+		console.log(4*'aaaa');
+
+		//虽然它 “不是一个数字”，但是 NaN 的 typeof 结果却是 number：
+		console.log(typeof NaN);
+		console.log(typeof (4*"6"));
+
+		//NaN 和任何变量都不相等，包括 NaN 自己：
+		console.log(NaN===NaN);
+
+		console.log(isNaN(4*"a"));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

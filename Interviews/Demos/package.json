@@ -1,0 +1,22 @@
+{
+  "name": "interviews",
+  "version": "1.0.0",
+  "description": "javascript 25 interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "is jquery"
+  },
+  "keywords": [
+    "interviews"
+  ],
+  "author": "KingsleyYu",
+  "license": "ISC",
+  "devDependencies": {
+    "is_js": "^0.7.6",
+    "jquery": "^2.1.4"
+  }
+}

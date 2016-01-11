@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript立即函数执行表达式</title>
+    <script>
+    var myObject = {
+        foo: "bar",
+        func: function() {
+            var self = this;
+            console.log("outer func: this.foo=" + this.foo);
+            console.log("outer func: self.foo=" + self.foo);
+
+            (function() {
+                console.log("inner func:this.foo=" + this.foo);
+                console.log("inner func: self.foo=" + self.foo);
+            })();
+        }
+    };
+    myObject.func();
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>javascript立即函数执行表达式</title>
+    <script type="text/javascript">
+    (function() {
+        var a = b = 3;
+    })();
+
+    console.log("a defined?" + (typeof a !== 'undefined'));
+    console.log("b defined?" + (typeof b !== 'undefined'));
+
+    // (function() {
+    //     var a = b = 3;
+    // })();
+
+    // console.log("a defined? " + (typeof a !== 'undefined'));
+    // console.log("b defined? " + (typeof b !== 'undefined'));
+    </script>
+</head>
+
+<body>
+	<div style="margin:0 auto;width:1100px;">
+		<img src="02.png" alt="">
+
+		<p>Javascript立即函数执行表达式中的赋值是从右至左</p>
+	</div>
+
+</body>
+
+</html>
